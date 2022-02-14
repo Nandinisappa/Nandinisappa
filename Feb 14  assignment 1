@@ -1,0 +1,6 @@
+input_NUM = int(input('ENTER ANY NUMBER:'))
+COUNT=0
+while (input_NUM > 0):
+    COUNT+=1
+    input_NUM //=10
+print('THE NUMBER OF DIGITS IN THE NUMBER:',COUNT)
