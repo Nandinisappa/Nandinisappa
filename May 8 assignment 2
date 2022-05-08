@@ -1,0 +1,15 @@
+def prftsqr(x):
+    if (x**(0.5)==int(x**(0.5))):
+        return True
+    return False
+n=int(input())
+l=[]
+d={}
+for i in range(n):
+    l.append(i)
+for i in l:
+    if prftsqr(i):
+        d[i]='yes'
+    else:
+        d[i]='no'
+print(d)
